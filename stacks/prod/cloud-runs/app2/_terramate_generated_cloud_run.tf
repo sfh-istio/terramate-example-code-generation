@@ -13,8 +13,8 @@ module "cloud_run_app" {
   image                = "gcr.io/kubernetes-e2e-test-images/echoserver:2.2"
   location             = "europe-north1"
   name                 = "terramate-app2-prod"
-  project              = "mineiros-terramate-prod"
-  service_account_name = "cloud-run@mineiros-terramate-prod.iam.gserviceaccount.com"
+  project              = "mineiros-terramate-prod-367015"
+  service_account_name = "cloud-run@mineiros-terramate-prod-367015.iam.gserviceaccount.com"
   source               = "../../../../modules/cloud-run"
 }
 output "url" {

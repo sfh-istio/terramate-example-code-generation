@@ -2,7 +2,7 @@
 // TERRAMATE: originated from generate_hcl block on /stacks/providers.tm.hcl
 
 provider "google" {
-  project = "mineiros-terramate-prod"
+  project = "mineiros-terramate-prod-367015"
   region  = "europe-north1"
 }
 terraform {
